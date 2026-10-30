@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+#header {
+    background-color: #333333;
+    color: white;
+    padding: 9px;
+    text-align: center;
+}
+#header h1 { margin: 10px 0; }
+#header p { margin: 0 0 10px; }
+
+#menu {
+    float: left;
+    width: 20%;
+    min-height: 390px;
+    padding: 20px 12px;
+    background-color: #f1f1f1;
+}
+#menu ul { list-style: none; padding: 0; margin: 0; }
+#menu li { margin-bottom: 12px; }
+#menu a {
+    display: block;
+    padding: 10px;
+    color: #333333;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    overflow-wrap: anywhere;
+}
+#menu a:hover, #menu a:focus-visible {
+    background-color: #dddddd;
+    text-decoration: underline;
+}
+#menu a[aria-current="page"] {
+    background-color: #333333;
+    color: white;
+    border-color: #333333;
+}
+
+#main {
+    margin-left: 20%;
+    min-height: 390px;
+    padding: 20px;
+}
+#main h2 { margin-top: 0; border-bottom: 2px solid #333333; padding-bottom: 8px; }
+#main h3 { margin-bottom: 8px; }
+#main section { margin-bottom: 24px; }
+pre {
+    padding: 16px;
+    background-color: #f1f1f1;
+    border-left: 4px solid #555555;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+code { font-family: Consolas, monospace; }
+.exemplo { padding: 16px; background-color: #eef3f8; border: 1px solid #aabccc; }
+.paginacao { margin-top: 28px; }
+.paginacao a { display: inline-block; margin: 0 12px 10px 0; color: #1e4671; }
+#footer {
+    clear: both;
+    background-color: #333333;
+    color: white;
+    padding: 1px 16px;
+    text-align: center;
+}
+.destaque { color: darkblue; font-size: 20px; }
+
+
+/* codigo alterado aparti daqui com a estelizaçao do texto*/
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #333333;
+    line-height: 30px;
+}
+
+#header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#header p {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+}
+
+#menu a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+
+#menu a:hover,
+#menu a:focus-visible {
+    text-decoration: underline;
+}
+
+#main h2 {
+    color: #1E4671;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#main h3 {
+    color: #315D83;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#main p {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#main li {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+pre {
+    font-size: 15px;
+}
+
+code {
+    font-family: Consolas, monospace;
+    font-size: 14px;
+}
+
+#footer p {
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Exemplo da propriedade font */
+.exemplo {
+    font: normal normal 17px/30px Arial, sans-serif;
+}
+
+.exemplo p {
+    text-indent: 30px;
+    word-spacing: 2px;
+}

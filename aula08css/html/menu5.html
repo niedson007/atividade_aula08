@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Aplicando CSS | Aula 07
+        </title>
+        <link rel="stylesheet" href="../css/menu5.css">
+    </head>
+    <body>
+        <div id="header">
+            <header>
+                <h1>
+                    Aprendendo HTML e CSS
+                </h1>
+                <p>
+                    Aula 07 — DIV e Introdução ao CSS
+                </p>
+            </header>
+        </div>
+        <div id="menu">
+            <nav aria-label="Menu lateral">
+                <ul>
+                    <li>
+                        <a href="menu1.html">
+                            1. Introdução ao CSS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu2.html">
+                            2. DIV e estrutura
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu3.html">
+                            3. Seletores e sintaxe
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu4.html">
+                            4. Cores em CSS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu5.html" aria-current="page">
+                            5. Aplicando CSS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu6.html">
+                            6. Box Model e display
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="main">
+            <main>
+                <h2>
+                    Formas de aplicar CSS
+                </h2>
+                <p>
+                    O CSS pode ser aplicado de três formas: inline, interno e externo.
+                </p>
+                <section>
+                    <h3>
+                        CSS inline
+                    </h3>
+                    <p>
+                        É escrito diretamente no atributo style de um elemento HTML. O estilo fica associado àquele elemento.
+                    </p>
+                    <p>
+                        A repetição de estilos em vários elementos dificulta a manutenção.
+                    </p>
+                </section>
+                <section>
+                    <h3>
+                        CSS interno
+                    </h3>
+                    <p>
+                        É escrito em um bloco style dentro do head do documento HTML. Pode ser utilizado em testes e páginas únicas.
+                    </p>
+                    <p>
+                        Quando várias páginas precisam do mesmo estilo, repetir o CSS interno aumenta o trabalho de atualização.
+                    </p>
+                </section>
+                <section>
+                    <h3>
+                        CSS externo
+                    </h3>
+                    <p>
+                        É escrito em um arquivo separado com extensão .css. O HTML se conecta a esse arquivo por meio de um elemento link no head.
+                    </p>
+                    <p>
+                        Essa forma facilita a organização, a manutenção e a reutilização de estilos.
+                    </p>
+                </section>
+                <nav class="paginacao" aria-label="Navegação entre páginas">
+                    <a href="menu4.html">
+                        ← Página anterior
+                    </a>
+                    <a href="menu6.html">
+                        Próxima página →
+                    </a>
+                </nav>
+            </main>
+        </div>
+        <div id="footer">
+            <footer>
+                <p>
+                    Atividade de Desenvolvimento Front-End para Web — 2026 | Página 5 de 6
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
